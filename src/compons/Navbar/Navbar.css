@@ -1,0 +1,32 @@
+.icons li:nth-child(1){
+    color: rgb(45, 45, 207);
+}
+.icons li:nth-child(2){
+    color: red;
+}
+.icons li:nth-child(3){
+    color: rgb(0, 204, 255);
+}
+.icons li:nth-child(4){
+    color: rgb(0, 60, 255);
+}
+.icons li:nth-child(5){
+    color: red;
+}
+.shop{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* .offcanvas-backdrop{
+    left: 100% !important;
+    transform: translateX(-100%);
+    right: 0 !important;
+    width: 30% !important;
+    background-color: #fff !important;
+    opacity: 1 !important;
+} */

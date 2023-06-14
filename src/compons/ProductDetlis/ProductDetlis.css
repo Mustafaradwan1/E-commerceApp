@@ -1,0 +1,19 @@
+.slick-prev:before, 
+.slick-next:before
+{
+    content:'';
+    display: none !important;
+}
+.slick-dots li button:before{
+    content: '';
+    color:rgb(248, 54, 54) !important;
+    font-size: 12px !important;
+    opacity: 0.15 !important;
+}
+.slick-dots li.slick-active button:before{
+    opacity: 0.75 !important;
+}
+
+.slider img{
+    height: 400px;
+}
